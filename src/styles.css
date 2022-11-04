@@ -1,0 +1,78 @@
+.home {
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 60px 12px;
+  width: 310px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.133);
+
+  border: 1px solid white;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+}
+
+.headers {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  text-align: center;
+  padding: 60px 12px;
+  width: 310px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.133);
+}
+
+.App {
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 60px 12px;
+  width: 310px;
+}
+
+.contact-card {
+  position: relative;
+  display: flex;
+  padding: 1rem;
+  color: #ffffff;
+  background-color: rgb(42, 84, 104);
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 1rem 1rem 2.5rem -1.6rem rgba(0, 0, 0, 0.75);
+  border-radius: 0.7rem;
+  max-width: 30rem;
+  max-height: 14rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  left: 30%;
+}
+
+.contact-card p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  left: 40%;
+  background-color: rgb(42, 84, 104); /* Green */
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+.pagination {
+  text-decoration: none;
+  position: relative;
+  display: inline;
+  left: 40%;
+  list-style: none;
+}
