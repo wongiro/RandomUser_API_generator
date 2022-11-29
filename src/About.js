@@ -7,7 +7,7 @@ import "./styles.css";
 
 const About = () => {
   const [myApi, setMyApi] = useState([]);
-  const [/*data,*/ setData] = useState([]);
+  const [/*data*/, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(5);
 
