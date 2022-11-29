@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import ContactCards from "./ContactCard";
+//import ContactCards from "./ContactCard";
 import Pagination from "./Pagination";
 
 import "./styles.css";
